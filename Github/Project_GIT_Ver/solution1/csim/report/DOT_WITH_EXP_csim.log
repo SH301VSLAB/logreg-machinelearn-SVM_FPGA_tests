@@ -1,0 +1,7 @@
+   Compiling ../../../../DOT_test.cpp in debug mode
+In file included from ../../../../DOT_test.cpp:4:0:
+../../../../DOT.h: In function 'float DOT_exp1(T*, T*)':
+../../../../DOT.h:110:8: error: 'EXP16' was not declared in this scope
+../../../../DOT.h:110:15: error: expected primary-expression before ',' token
+make: *** [obj/DOT_test.o] Error 1
+@E [SIM-1] 'csim_design' failed: compilation error(s).

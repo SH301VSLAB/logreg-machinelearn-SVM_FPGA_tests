@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+  <sourceFile>
+    <directive functionName="Taylor_exponential" label="l3" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="Taylor_exponential" label="l2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="Taylor_exponential" label="l1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="DOT_exp1_label0" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="DOT_exp1" label="DOT_exp1_label1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="" functionLabel="">
+      <pragma name="ARRAY_PARTITION">
+        <option name="variable" value="a" positionalBoolean="4"/>
+        <option name="complete" value="" positionalBoolean="type"/>
+        <option name="dim" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="DOT_exp1" label="" functionLabel="">
+      <pragma name="ARRAY_PARTITION">
+        <option name="variable" value="b" positionalBoolean="4"/>
+        <option name="complete" value="" positionalBoolean="type"/>
+        <option name="dim" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="DOT_exp1" label="DOT_exp1_label2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="DOT_product" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="power_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="Factorial" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="ADD1_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="ADD2_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="ADD3_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="power_loop2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="DOT_exp1" label="power_loop8" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="wrapped_DOT_matrix" label="DOT_LOOP" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="Normilizer" label="sum_loop1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="Normilizer" label="" functionLabel="">
+      <pragma name="INLINE"/>
+    </directive>
+    <directive functionName="Normilizer" label="sum_loop2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="Normilizer" label="Div_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="wrapped_DOT_matrix" label="DOT_LOOP2" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="wrapped_DOT_matrix" label="DOT_LOOP3" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="wrapped_DOT_Full_Algorithm" label="DOT_LOOP" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="wrapped_DOT_Full_Algorithm" label="DOT_LOOP2" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="wrapped_DOT_Full_Algorithm" label="DOT_LOOP3" functionLabel="">
+      <pragma name="PIPELINE">
+        <option name="II" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="SVM" label="Dif2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="Dif1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="Sum2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="Sum1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="EXP" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="DOT10" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="ADD_loop1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="power_loop2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="power_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="DOT_exp1_label1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="ADD1_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="ADD2_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16" label="Factorial" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM" label="" functionLabel="">
+      <pragma name="ARRAY_PARTITION">
+        <option name="variable" value="FV" positionalBoolean="4"/>
+        <option name="complete" value="" positionalBoolean="type"/>
+        <option name="dim" value="2"/>
+      </pragma>
+    </directive>
+    <directive functionName="SVM" label="" functionLabel="">
+      <pragma name="ARRAY_PARTITION">
+        <option name="variable" value="Alpha" positionalBoolean="4"/>
+        <option name="complete" value="" positionalBoolean="type"/>
+        <option name="dim" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="SVM" label="" functionLabel="">
+      <pragma name="ARRAY_PARTITION">
+        <option name="variable" value="Input" positionalBoolean="4"/>
+        <option name="complete" value="" positionalBoolean="type"/>
+        <option name="dim" value="1"/>
+      </pragma>
+    </directive>
+    <directive functionName="SVM_scale" label="Dif2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="Dif1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="Sum2" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="Sum1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="EXP" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="DOT10" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="ADD_loop1" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="SVM_scale" label="loop_final" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+  </sourceFile>
+  <sourceFile name="DOT.h">
+    <directive functionName="EXP16_linear_reg" label="Factorial" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16_linear_reg" label="power_loop2" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16_linear_reg" label="power_loop" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16_linear_reg" label="DOT_exp1_label1" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16_linear_reg" label="ADD1_loop" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+    <directive functionName="EXP16_linear_reg" label="ADD2_loop" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+  </sourceFile>
+</AutoPilot:ProjectResources>

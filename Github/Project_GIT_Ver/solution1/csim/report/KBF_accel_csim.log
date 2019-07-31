@@ -1,0 +1,100 @@
+   Compiling ../../../../DOT_test.cpp in debug mode
+   Compiling ../../../../DOT_accel.cpp in debug mode
+   Generating csim.exe
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+part of in0:2195.412354
+part of in1:6840.037598
+part of in2:20952.886719
+part of in3:62550.031250
+part of in4:180567.875000
+part of in5:501304.906250
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.0028349443
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.0088325664
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.0270565413
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.0807710886
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.2331679761
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.6473369002
+ACCtual part of in0:2208.347656
+ACCtual part of in1:6974.391602
+ACCtual part of in2:22026.464844
+ACCtual part of in3:69563.804688
+ACCtual part of in4:219696.031250
+ACCtual part of in5:693842.187500
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0021771893
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0068759876
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0217156857
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0685823038
+1/(1+e^x) for array1 and array2 WITH ARM: 0.2165962607
+1/(1+e^x) for array1 and array2 WITH ARM: 0.6840525270
+0.000658 some amount off
+0.001957 some amount off
+0.005341 some amount off
+0.012189 some amount off
+0.016572 some amount off
+-0.036716 some amount off
+ARRAYS IDENTICAL ... Test successful!
+
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+part of in0:2195.412354
+part of in1:6840.037598
+part of in2:20952.886719
+part of in3:62550.031250
+part of in4:180567.875000
+part of in5:501304.906250
+part of 2in0:647.746521
+part of 2in1:1754.850464
+part of 2in2:4726.930664
+part of 2in3:12597.582031
+part of 2in4:33024.953125
+part of 2in5:84681.757813
+part of 2in0:647.746521
+part of 2in1:1754.850464
+part of 2in2:4726.930664
+part of 2in3:12597.582031
+part of 2in4:33024.953125
+part of 2in5:84681.757813
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.2696026564
+1/(1+e^x) for array1 and array2 WITH FPGA: 0.7303973436
+ACCtual part of in0:2208.347656
+ACCtual part of in1:6974.391602
+ACCtual part of in2:22026.464844
+ACCtual part of in3:69563.804688
+ACCtual part of in4:219696.031250
+ACCtual part of in5:693842.187500
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0021771893
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0068759876
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0217156857
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0685823038
+1/(1+e^x) for array1 and array2 WITH ARM: 0.2165962607
+1/(1+e^x) for array1 and array2 WITH ARM: 0.6840525270
+ACCtual part of in0:694.159485
+ACCtual part of in1:1886.921021
+ACCtual part of in2:5129.183105
+ACCtual part of in3:13942.565430
+ACCtual part of in4:37899.824219
+ACCtual part of in5:103022.398438
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0042697787
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0116064614
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0315496325
+1/(1+e^x) for array1 and array2 WITH ARM: 0.0857607946
+1/(1+e^x) for array1 and array2 WITH ARM: 0.2331220210
+1/(1+e^x) for array1 and array2 WITH ARM: 0.6336913109
+ACCtual part of in0:93.944313
+ACCtual part of in1:255.367004
+1/(1+e^x) for array1 and array2 WITH ARM: 0.2689415216
+1/(1+e^x) for array1 and array2 WITH ARM: 0.7310584784
+ARM: 0.268942
+
+FPGA: 0.269603, ARM: 0.268942
+0.000661 some amount off
+FPGA: 0.730397, ARM: 0.731058
+-0.000661 some amount off
+ARRAYS IDENTICAL ... Test successful!
+
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+WITH FPGA: 3.2334570885
+WITH ARM: 3.2334570885
+@I [SIM-1] CSim done with 0 errors.
