@@ -1,0 +1,8 @@
+   Compiling ../../../../DOT_test.cpp in debug mode
+   Compiling ../../../../DOT_accel.cpp in debug mode
+   Generating csim.exe
+DEBUGGING AXI4 STREAMING DATA TYPES!
+
+WITH FPGA: 3.2334570885
+WITH ARM: 3.2334570885
+@I [SIM-1] CSim done with 0 errors.
