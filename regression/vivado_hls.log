@@ -1,0 +1,123 @@
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'D:/Vivado_2015_2_final/Vivado_HLS/2015.2/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'lefty' on host 'desktop-vdl14cn' (Windows NT_amd64 version 6.2) on Tue Aug 13 14:38:42 -0600 2019
+            in directory 'C:/Users/lefty/Desktop/regression'
+@I [HLS-10] Opening project 'C:/Users/lefty/Desktop/regression/regression'.
+@I [HLS-10] Adding design file 'DOT_accel.cpp' to the project
+@I [HLS-10] Adding test bench file 'DOT_test.cpp' to the project
+@I [HLS-10] Opening solution 'C:/Users/lefty/Desktop/regression/regression/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+@I [HLS-10] Analyzing design file 'DOT_accel.cpp' ... 
+@I [HLS-10] Validating synthesis directives ...
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Label 'DOT_exp1_label0' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'DOT_exp1_label1' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'DOT_exp1_label2' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'Factorial' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD1_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD2_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD3_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop2' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop8' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Label 'DOT_LOOP2' does not exist in function 'wrapped_DOT_matrix'. 
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Label 'DOT_LOOP3' does not exist in function 'wrapped_DOT_matrix'. 
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_Full_Algorithm' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_Full_Algorithm' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_Full_Algorithm' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@I [HLS-10] Starting code transformations ...
+@I [XFORM-501] Unrolling loop 'power_loop2' (./reg.h:75) in function 'float EXP16<float, 16>(float)' completely.
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT<float, 6, 16, 4, 5, 5>' (./reg.h:350).
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT<float, 6, 16, 4, 5, 5>' (./reg.h:343).
+@I [XFORM-603] Inlining function 'EXP16<float, 16>' into 'DOT_exp1<float, 6, 16>' (./reg.h:292).
+@I [XFORM-603] Inlining function 'DOT_exp1<float, 6, 16>' into 'wrapped_DOT<float, 6, 16, 4, 5, 5>' (./reg.h:358).
+@I [XFORM-603] Inlining function 'push_single_val<float, 4, 5, 5>' into 'wrapped_DOT<float, 6, 16, 4, 5, 5>' (./reg.h:358).
+@I [XFORM-603] Inlining function 'wrapped_DOT<float, 6, 16, 4, 5, 5>' into 'DOT_accel' (DOT_accel.cpp:54).
+@I [HLS-10] Checking synthesizability ...
+@I [XFORM-501] Unrolling loop 'DOT_product' (./reg.h:273) in function 'DOT_accel' completely.
+@I [XFORM-501] Unrolling loop 'Factorial' (./reg.h:46) in function 'DOT_accel' completely.
+@I [XFORM-501] Unrolling loop 'power_loop' (./reg.h:83) in function 'DOT_accel' completely.
+@I [XFORM-501] Unrolling loop 'DOT_exp1_label1' (./reg.h:124) in function 'DOT_accel' completely.
+@I [XFORM-501] Unrolling loop 'ADD1_loop' (./reg.h:135) in function 'DOT_accel' completely.
+@I [XFORM-501] Unrolling loop 'ADD2_loop' (./reg.h:139) in function 'DOT_accel' completely.
+@I [XFORM-102] Partitioning array 'pre_exp' (./reg.h:52) automatically.
+@I [XFORM-102] Partitioning array 'pre2_exp' (./reg.h:53) automatically.
+@I [XFORM-101] Partitioning array 'b' (./reg.h:333) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'a' (./reg.h:332) in dimension 1 completely.
+@I [XFORM-401] Performing if-conversion on hyperblock from (./reg.h:341:4) to (./reg.h:340:25) in function 'DOT_accel'... converting 7 basic blocks.
+@I [XFORM-401] Performing if-conversion on hyperblock from (./reg.h:348:6) to (./reg.h:347:26) in function 'DOT_accel'... converting 7 basic blocks.
+@I [HLS-111] Elapsed time: 44.786 seconds; current memory usage: 89.6 MB.
+@I [HLS-10] Starting hardware synthesis ...
+@I [HLS-10] Synthesizing 'DOT_accel' ...
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Scheduling module 'DOT_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [SCHED-11] Starting scheduling ...
+@I [SCHED-61] Pipelining loop 'Loop 1'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-61] Pipelining loop 'Loop 2'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-11] Finished scheduling.
+@I [HLS-111] Elapsed time: 0.195 seconds; current memory usage: 92.6 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Exploring micro-architecture for module 'DOT_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [BIND-100] Starting micro-architecture generation ...
+@I [BIND-101] Performing variable lifetime analysis.
+@I [BIND-101] Exploring resource sharing.
+@I [BIND-101] Binding ...
+@I [BIND-100] Finished micro-architecture generation.
+@I [HLS-111] Elapsed time: 0.158 seconds; current memory usage: 92.5 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Generating RTL for module 'DOT_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_data_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_keep_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_strb_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_user_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_last_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_id_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/INPUT_STREAM_dest_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_data_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_keep_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_strb_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_user_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_last_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_id_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_accel/OUTPUT_STREAM_dest_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on function 'DOT_accel' to 's_axilite & ap_ctrl_hs'.
+@I [RTGEN-100] Generating core module 'DOT_accel_dcmp_64ns_64ns_1_1': 1 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_accel_fadd_32ns_32ns_32_5_full_dsp': 3 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_accel_fdiv_32ns_32ns_32_16': 4 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_accel_fmul_32ns_32ns_32_4_max_dsp': 6 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_accel_fpext_32ns_64_1': 1 instance(s).
+@I [RTGEN-100] Finished creating RTL model for 'DOT_accel'.
+@I [HLS-111] Elapsed time: 0.245 seconds; current memory usage: 93.9 MB.
+@I [HLS-10] Finished generating all RTL models.
+@I [WSYSC-301] Generating RTL SystemC for 'DOT_accel'.
+@I [WVHDL-304] Generating RTL VHDL for 'DOT_accel'.
+@I [WVLOG-307] Generating RTL Verilog for 'DOT_accel'.
+@I [HLS-112] Total elapsed time: 46.790 seconds; peak memory usage: 93.9 MB.
+@I [LIC-101] Checked in feature [HLS]
