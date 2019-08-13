@@ -1,0 +1,17 @@
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'D:/Vivado_2015_2_final/Vivado_HLS/2015.2/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'lefty' on host 'desktop-vdl14cn' (Windows NT_amd64 version 6.2) on Tue Aug 13 15:11:31 -0600 2019
+            in directory 'C:/Users/lefty/Desktop/SVM'
+@I [HLS-10] Opening project 'C:/Users/lefty/Desktop/SVM/SVM'.
+@I [HLS-10] Opening solution 'C:/Users/lefty/Desktop/SVM/SVM/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling ../../../../DOT_test.cpp in debug mode
+   Compiling ../../../../DOT_accel.cpp in debug mode
+   Generating csim.exe
+DEBUGGING AXI4 STREAMING DATA TYPES!
+WITH FPGA: 3.2334570885
+WITH ARM: 3.2334570885
+@I [SIM-1] CSim done with 0 errors.
+@I [LIC-101] Checked in feature [HLS]
