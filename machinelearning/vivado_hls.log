@@ -1,0 +1,169 @@
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running 'D:/Vivado_2015_2_final/Vivado_HLS/2015.2/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'lefty' on host 'desktop-vdl14cn' (Windows NT_amd64 version 6.2) on Tue Aug 13 12:56:20 -0600 2019
+            in directory 'C:/Users/lefty/Desktop/machinelearning'
+@I [HLS-10] Opening project 'C:/Users/lefty/Desktop/machinelearning/machinelearning'.
+@I [HLS-10] Adding design file 'DOT_accel.cpp' to the project
+@I [HLS-10] Adding test bench file 'DOT_test.cpp' to the project
+@I [HLS-10] Opening solution 'C:/Users/lefty/Desktop/machinelearning/machinelearning/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+@I [HLS-10] Analyzing design file 'DOT_accel.cpp' ... 
+@I [HLS-10] Validating synthesis directives ...
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'Taylor_exponential' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Label 'DOT_exp1_label0' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'DOT_exp1_label1' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'DOT_exp1_label2' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'Factorial' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD1_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD2_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'ADD3_loop' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop2' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Label 'power_loop8' does not exist in function 'DOT_exp1'. 
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_matrix' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_matrix' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'PIPELINE' cannot be applied: Function 'wrapped_DOT_matrix' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'ARRAY_PARTITION' cannot be applied: Function 'SVM' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'SVM_scale' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@W [HLS-40] Directive 'UNROLL' cannot be applied: Function 'EXP16_linear_reg' does not exist in any synthesis source file.
+@I [HLS-10] Starting code transformations ...
+@I [XFORM-501] Unrolling loop 'sum_loop1' (./machine.h:202) in function 'void Normilizer<float, 2>(float*, float*)' completely.
+@I [XFORM-501] Unrolling loop 'power_loop2' (./machine.h:76) in function 'float EXP16<float, 16>(float)' completely.
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:318).
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:290).
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:263).
+@I [XFORM-603] Inlining function 'pop_stream<float, 4, 5, 5>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:253).
+@I [XFORM-603] Inlining function 'EXP16<float, 16>' into 'DOT_exp1<float, 6, 16>' (./machine.h:186).
+@I [XFORM-603] Inlining function 'DOT_exp1<float, 6, 16>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:324).
+@I [XFORM-603] Inlining function 'DOT_exp1<float, 6, 16>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:299).
+@I [XFORM-603] Inlining function 'DOT_exp1<float, 6, 16>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:272).
+@I [XFORM-603] Inlining function 'Normilizer<float, 6>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:308).
+@I [XFORM-603] Inlining function 'Normilizer<float, 6>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:281).
+@I [XFORM-603] Inlining function 'Normilizer<float, 2>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:333).
+@I [XFORM-603] Inlining function 'push_stream<float, 4, 5, 5>' into 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' (./machine.h:340).
+@I [XFORM-603] Inlining function 'wrapped_DOT_Full_Algorithm<float, 6, 16, 4, 5, 5>' into 'DOT_Full_Algorithm_accel' (DOT_accel.cpp:44).
+@I [HLS-10] Checking synthesizability ...
+@I [XFORM-502] Unrolling all sub-loops inside loop 'DOT_LOOP' (./machine.h:271) in function 'DOT_Full_Algorithm_accel' for pipelining.
+@I [XFORM-502] Unrolling all sub-loops inside loop 'DOT_LOOP2' (./machine.h:298) in function 'DOT_Full_Algorithm_accel' for pipelining.
+@I [XFORM-502] Unrolling all sub-loops inside loop 'DOT_LOOP3' (./machine.h:323) in function 'DOT_Full_Algorithm_accel' for pipelining.
+@I [XFORM-501] Unrolling loop 'DOT_product' (./machine.h:167) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'Factorial' (./machine.h:47) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'power_loop' (./machine.h:84) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'DOT_exp1_label1' (./machine.h:125) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'ADD1_loop' (./machine.h:136) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'ADD2_loop' (./machine.h:140) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'sum_loop1' (./machine.h:202) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'sum_loop2' (./machine.h:206) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-501] Unrolling loop 'Div_loop' (./machine.h:209) in function 'DOT_Full_Algorithm_accel' completely.
+@I [XFORM-102] Partitioning array 'Temp_array' (./machine.h:199) automatically.
+@I [XFORM-102] Partitioning array 'Temp_array.1' (./machine.h:199) automatically.
+@I [XFORM-102] Partitioning array 'pre_exp' (./machine.h:53) automatically.
+@I [XFORM-102] Partitioning array 'pre2_exp' (./machine.h:54) automatically.
+@I [XFORM-102] Partitioning array 'pre_exp.1' (./machine.h:53) automatically.
+@I [XFORM-102] Partitioning array 'pre2_exp.1' (./machine.h:54) automatically.
+@I [XFORM-102] Partitioning array 'pre_exp.2' (./machine.h:53) automatically.
+@I [XFORM-102] Partitioning array 'pre2_exp.2' (./machine.h:54) automatically.
+@I [XFORM-102] Automatically partitioning small array 'by2in' (./machine.h:239) completely based on array size.
+@I [XFORM-102] Automatically partitioning small array 'soft3' (./machine.h:243) completely based on array size.
+@I [XFORM-101] Partitioning array 'b' (./machine.h:235) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'a' (./machine.h:233) in dimension 2 completely.
+@I [XFORM-101] Partitioning array 'soft1' (./machine.h:241) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'c' (./machine.h:234) in dimension 2 completely.
+@I [XFORM-101] Partitioning array 'by2in' (./machine.h:239) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'soft3' (./machine.h:243) in dimension 1 completely.
+@I [XFORM-401] Performing if-conversion on hyperblock from (./machine.h:259:5) to (./machine.h:258:26) in function 'DOT_Full_Algorithm_accel'... converting 7 basic blocks.
+@I [XFORM-541] Flattening a loop nest 'Loop-1' (./machine.h:248:13) in function 'DOT_Full_Algorithm_accel'.
+@I [XFORM-541] Flattening a loop nest 'Loop-4' (./machine.h:284:14) in function 'DOT_Full_Algorithm_accel'.
+@I [XFORM-541] Flattening a loop nest 'Loop-6' (./machine.h:312:14) in function 'DOT_Full_Algorithm_accel'.
+@I [HLS-111] Elapsed time: 46.361 seconds; current memory usage: 92.9 MB.
+@I [HLS-10] Starting hardware synthesis ...
+@I [HLS-10] Synthesizing 'DOT_Full_Algorithm_accel' ...
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Scheduling module 'DOT_Full_Algorithm_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [SCHED-11] Starting scheduling ...
+@I [SCHED-61] Pipelining loop 'Loop 1'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-61] Pipelining loop 'Loop 2'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-61] Pipelining loop 'DOT_LOOP'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 76.
+@I [SCHED-61] Pipelining loop 'Loop 4'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-61] Pipelining loop 'DOT_LOOP2'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 76.
+@I [SCHED-61] Pipelining loop 'Loop 6'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
+@I [SCHED-61] Pipelining loop 'DOT_LOOP3'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 76.
+@I [SCHED-61] Pipelining loop 'Loop 8'.
+@I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 16.
+@I [SCHED-11] Finished scheduling.
+@I [HLS-111] Elapsed time: 0.633 seconds; current memory usage: 98.3 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Exploring micro-architecture for module 'DOT_Full_Algorithm_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [BIND-100] Starting micro-architecture generation ...
+@I [BIND-101] Performing variable lifetime analysis.
+@I [BIND-101] Exploring resource sharing.
+@I [BIND-101] Binding ...
+@I [BIND-100] Finished micro-architecture generation.
+@I [HLS-111] Elapsed time: 0.489 seconds; current memory usage: 100 MB.
+@I [HLS-10] ----------------------------------------------------------------
+@I [HLS-10] -- Generating RTL for module 'DOT_Full_Algorithm_accel' 
+@I [HLS-10] ----------------------------------------------------------------
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_data_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_keep_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_strb_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_user_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_last_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_id_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/INPUT_STREAM_dest_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_data_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_keep_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_strb_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_user_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_last_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_id_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on port 'DOT_Full_Algorithm_accel/OUTPUT_STREAM_dest_V' to 'axis'.
+@I [RTGEN-500] Setting interface mode on function 'DOT_Full_Algorithm_accel' to 's_axilite & ap_ctrl_hs'.
+@I [RTGEN-100] Generating core module 'DOT_Full_Algorithm_accel_dcmp_64ns_64ns_1_1': 1 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_Full_Algorithm_accel_fadd_32ns_32ns_32_5_full_dsp': 21 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_Full_Algorithm_accel_fdiv_32ns_32ns_32_16': 13 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_Full_Algorithm_accel_fmul_32ns_32ns_32_4_max_dsp': 21 instance(s).
+@I [RTGEN-100] Generating core module 'DOT_Full_Algorithm_accel_fpext_32ns_64_1': 1 instance(s).
+@I [RTGEN-100] Finished creating RTL model for 'DOT_Full_Algorithm_accel'.
+@I [HLS-111] Elapsed time: 0.88 seconds; current memory usage: 107 MB.
+@I [RTMG-278] Implementing memory 'DOT_Full_Algorithm_accel_a_0_ram' using distributed RAMs.
+@I [RTMG-278] Implementing memory 'DOT_Full_Algorithm_accel_in_ram' using block RAMs.
+@I [HLS-10] Finished generating all RTL models.
+@I [WSYSC-301] Generating RTL SystemC for 'DOT_Full_Algorithm_accel'.
+@I [WVHDL-304] Generating RTL VHDL for 'DOT_Full_Algorithm_accel'.
+@I [WVLOG-307] Generating RTL Verilog for 'DOT_Full_Algorithm_accel'.
+@I [HLS-112] Total elapsed time: 51.569 seconds; peak memory usage: 107 MB.
+@I [LIC-101] Checked in feature [HLS]
